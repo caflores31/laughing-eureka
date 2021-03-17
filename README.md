@@ -13,3 +13,14 @@ SO THAT I can create a strong password that provides greater security
 ## Screenshot of the password generator 
 
 ![Alt text](/asset/pwgenerator.jpg?raw=true "Optional Title")
+
+## URL of the deployed site
+
+https://caflores31.github.io/laughing-eureka/
+
+
+## URL of the GitHub repository
+
+https://github.com/caflores31/laughing-eureka
+
+
