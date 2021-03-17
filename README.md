@@ -12,4 +12,4 @@ SO THAT I can create a strong password that provides greater security
 
 ## Screenshot of the password generator 
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/asset/pwgenerator.jpg"Optional Title")
