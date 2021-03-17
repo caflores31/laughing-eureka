@@ -109,7 +109,7 @@ function getPasswordOptions() {
     alert("Password length must be at least 8 characters");
     return;
   }
-  var isNum = confirm("Click ok to confirm numbers.")
+  var isNum = confirm("Click OK to confirm including numeric characters..")
   if(upperCase) {
     passwordOptions = passwordOptions.concat(alphaUpper)
   }
@@ -119,9 +119,9 @@ function getPasswordOptions() {
     return;
   }
 
-  var upperCase = confirm("Do you want to use an uppercase character?")
-  var lowerCase = confirm("Do you want to use a lowercase character?")
-  var specialCase = confirm("Do you want to use a special character?")
+  var upperCase = confirm("Click OK to confirm including uppercase characters.")
+  var lowerCase = confirm("Click OK to confirm including lowercase characters.")
+  var specialCase = confirm("Click OK to confirm including special characters.")
 
   var passwordOptions = {
     length,
