@@ -1,3 +1,4 @@
+// Array of special characters to be included in password
 var specialCase = [
   '@',
   '%',
@@ -94,17 +95,20 @@ function randomArrayVal(arr) {
   var randElement = arr[randomIndex];
   return arr[randomIndex]
 }
-// start function to generate password
+// Function to prompt user for password options
 function getPasswordOptions() {
+  // Variable to store length of password from user input
   var length = parseInt(prompt("How many characters would you like your password to contain?"));
   if(isNaN(length) === true) {
     alert("Click OK to continue.");
     return;
   }
+  // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
   if(length>128) {
     alert("Password length must less than 129 characters");
     return;
   }
+  // Conditional statement to check if password length is at least 8 characters long. Prompts end if this evaluates false
   if(length<8) {
     alert("Password length must be at least 8 characters");
     return;
@@ -132,10 +136,10 @@ function getPasswordOptions() {
   }
   return passwordOptions;
 }
-//Assignment Code
+// Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+// Function to generate password with user input
 function writePassword() {
   var options = getPasswordOptions();
   console.log(options);
