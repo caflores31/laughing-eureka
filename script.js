@@ -1,4 +1,4 @@
-var special = [
+var specialCase = [
   '@',
   '%',
   '+',
@@ -23,7 +23,7 @@ var special = [
   '_',
   '.'
 ];
-console.log(special);
+console.log(specialCase);
 // Array of numeric characters to be included in password
 var numeric = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   console.log(numeric);
