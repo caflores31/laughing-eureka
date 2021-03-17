@@ -12,4 +12,4 @@ SO THAT I can create a strong password that provides greater security
 
 ## Screenshot of the password generator 
 
-![Alt text](/asset/pwgenerator.jpg"Optional Title")
+![Alt text](/https://github.com/caflores31/laughing-eureka/blob/master/asset/pwgenerator.jpg"Optional Title")
